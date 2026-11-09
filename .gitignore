@@ -1,0 +1,31 @@
+# secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# data, logs, caches
+data/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+logs/
+.cache/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# environments and dependencies
+venv/
+.venv/
+node_modules/
+.next/
+
+# OS
+.DS_Store
+
+# local bot token and channel config
+.discord_token
+discord_channels.json
